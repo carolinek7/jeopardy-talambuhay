@@ -30,7 +30,7 @@ const pastQuestions: Question[] = sortQuestions([
         points: 300,
         question:
             'What is the middle school robotics competition?',
-        answer: 'First Lego League (FLL)',
+        answer: 'First Lego League',
     },
     {
         points: 400,
