@@ -48,3 +48,5 @@ npx sv create
 # create a new project in my-app
 npx sv create jeopardy-talambuhay
 ```
+
+![Photo of Successful Git Push](/static/git_push.jpg)
