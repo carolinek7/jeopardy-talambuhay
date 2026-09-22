@@ -23,8 +23,8 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 200,
         question:
-            'What track event typically consists of running two laps around a standard outdoor track?',
-        answer: '800 meter run',
+            'How many meters does a typical distance track event consist of when running two laps around a standard outdoor track (enter number)?',
+        answer: '800',
     },
     {
         points: 300,
@@ -36,7 +36,7 @@ const pastQuestions: Question[] = sortQuestions([
         points: 400,
         question: 
             'What state has the Mauna Loa volcano?',
-        imgSrc: "https://www.britannica.com/place/Mauna-Loa",
+        imgSrc: "/mauna_loa.webp",
         answer: 'Hawaii',
     }
 ]);
@@ -66,7 +66,7 @@ const presentQuestions: Question[] =
             question:
                 'What craft technique utilizes yarn and single needle/hook?',
             imgSrc: '/crochet.jpeg',
-            answer: 'Crocheting',
+            answer: 'Crochet',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
