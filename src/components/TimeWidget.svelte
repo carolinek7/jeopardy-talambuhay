@@ -4,8 +4,8 @@
 </script>
 
 <div class="time-widget">
-	{#each Array(9).fill(0) as _, i}
-		<div class="box" class:red={secondsLeft > Math.abs(i - 4)}> </div>
+	{#each Array(11).fill(0) as _, i}
+		<div class="box" class:red={secondsLeft > Math.abs(i - 5)}> </div>
 	{/each}
 </div>
 
